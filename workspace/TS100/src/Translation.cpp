@@ -293,29 +293,29 @@ const char* SettingsDescriptions[] = {
   /* PowerSource               */ "Strømforsyning. Indstil Cutoff Spændingen. <DC 10V <S 3.3V per cell",
   /* SleepTemperature          */ "Dvale Temperatur <C",
   /* SleepTimeout              */ "Dvale Timeout <Minutter/Sekunder",
-  /* ShutdownTimeout           */ "sluknings Timeout <Minutter",
+  /* ShutdownTimeout           */ "Sluknings Timeout <Minutter",
   /* MotionSensitivity         */ "Bevægelsesfølsomhed <0.Slukket 1.Mindst følsom 9.Mest følsom",
   /* TemperatureUnit           */ "Temperatur Enhed <C=Celsius F=Fahrenheit",
-  /* AdvancedIdle              */ "Vis detialieret information med en mindre skriftstørrelse på standby skærmen.",
+  /* AdvancedIdle              */ "Vis detaljeret information med en mindre skriftstørrelse på standby skærmen.",
   /* DisplayRotation           */ "Skærm Orientering <A. Automatisk V. Venstre Håndet H. Højre Håndet",
-  /* BoostEnabled              */ "Ved tryk på front knap Aktiveres boost-funktionen, 450C tilstand når der loddes",
+  /* BoostEnabled              */ "Ved tryk på front knap aktiveres boost-funktionen, 450C tilstand når der loddes",
   /* BoostTemperature          */ "Temperatur i \"boost\" mode",
   /* AutoStart                 */ "Start automatisk med lodning når strøm sættes til. L=Lodning, D= Dvale tilstand,S=Slukket",
   /* CooldownBlink             */ "Blink temperaturen på skærmen, mens spidsen stadig er varm.",
-  /* TemperatureCalibration    */ "kalibrere spids temperatur.",
+  /* TemperatureCalibration    */ "Kalibrer spids temperatur.",
   /* SettingsReset             */ "Gendan alle indstillinger",
-  /* VoltageCalibration        */ "VIN kalibrering. Knapperne justere, Lang tryk for at gå ud",
-  /* AdvancedSoldering         */ "Vis detialieret information mens der loddes",
-  /* ScrollingSpeed            */ "Speed this text scrolls past at",
-  /* TipModel                  */ "Tip Model selection",
-  /* SimpleCalibrationMode     */ "Simple Calibration using Hot water",
-  /* AdvancedCalibrationMode   */ "Advanced calibration using thermocouple on the tip",
-  /* PowerInput                */ "Power Wattage of the power adapter used",
+  /* VoltageCalibration        */ "VIN kalibrering. Knapperne justerer, Lang tryk for at gå ud",
+  /* AdvancedSoldering         */ "Vis detaljeret information mens der loddes",
+  /* ScrollingSpeed            */ "Hastighed denne tekst ruller forbi med.",
+  /* TipModel                  */ "Valg af spids model",
+  /* SimpleCalibrationMode     */ "Simpel kalibrering med varmt vand",
+  /* AdvancedCalibrationMode   */ "Avanceret kalibrering med termokobler på spidsen",
+  /* PowerInput                */ "Strømforbrug af den anvendte strømadapter",
 };
 
-const char* SettingsCalibrationDone = "Calibration done!";
+const char* SettingsCalibrationDone = "Kalibrering færdig!";
 const char* SettingsCalibrationWarning = "Sørg for at loddespidsen er ved stuetemperatur, inden du fortsætter!";
-const char* SettingsResetWarning = "Are you sure to reset settings to default values?";
+const char* SettingsResetWarning = "Er du sikker på du vil gendanne standard indstillingerne?";
 const char* UVLOWarningString = "Lav Volt";
 const char* UndervoltageString = "Undervoltage";
 const char* InputVoltageString = "Input V: ";
@@ -328,7 +328,7 @@ const char* WarningAdvancedString = "VARM LODDESPIDS!";
 const char* SleepingTipAdvancedString = "Tip:";
 const char* IdleTipString = "Tip:";
 const char* IdleSetString = " Set:";
-const char* TipDisconnectedString = "TIP DISCONNECTED";
+const char* TipDisconnectedString = "SPIDS AFKOBLET";
 const char* SolderingAdvancedPowerPrompt = "Power: ";
 const char* OffString = "Off";
 
@@ -364,17 +364,17 @@ const char* SettingsShortNames[][2] = {
 };
 
 const char* SettingsMenuEntries[4] = {
-  /* SolderingMenu             */ "Soldering\nSettings",
-  /* PowerSavingMenu           */ "Sleep\nModes",
-  /* UIMenu                    */ "User\nInterface",
-  /* AdvancedMenu              */ "Advanced\nOptions",
+  /* SolderingMenu             */ "Lodde\nIndstillinger",
+  /* PowerSavingMenu           */ "Dvale\nTilstande",
+  /* UIMenu                    */ "Bruger\nGrænseflade",
+  /* AdvancedMenu              */ "Avancerede\nIndstillinger",
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
-  /* SolderingMenu             */ "Soldering settings",
-  /* PowerSavingMenu           */ "Power Saving Settings",
-  /* UIMenu                    */ "User Interface settings",
-  /* AdvancedMenu              */ "Advanced options",
+  /* SolderingMenu             */ "Lodde Indstillinger",
+  /* PowerSavingMenu           */ "Strøm Spare Indstillinger",
+  /* UIMenu                    */ "Brugergrænseflade Indstillinger",
+  /* AdvancedMenu              */ "Avancerede Indstillinger",
 };
 
 #endif
